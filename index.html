@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>IT Skills Portfolio | Keanna Alexandria Rebucan</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f7f3ec;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        nav {
+            background: #073b2a;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+        }
+
+        nav h2 {
+            letter-spacing: 1px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+        }
+
+        nav a:hover {
+            opacity: 0.7;
+        }
+
+        .hero {
+            min-height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .hero h1 {
+            font-size: 60px;
+            color: #073b2a;
+            margin-bottom: 15px;
+        }
+
+        .hero h3 {
+            font-weight: normal;
+            font-size: 22px;
+            margin-bottom: 25px;
+        }
+
+        .hero p {
+            max-width: 650px;
+            margin: auto;
+            color: #555;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 28px;
+            background: #073b2a;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        section {
+            padding: 80px 10%;
+        }
+
+        section h2 {
+            text-align: center;
+            color: #073b2a;
+            font-size: 36px;
+            margin-bottom: 40px;
+        }
+
+        .about {
+            background: white;
+            text-align: center;
+        }
+
+        .about p {
+            max-width: 750px;
+            margin: auto;
+        }
+
+        .activities {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+        }
+
+        .card span {
+            font-size: 15px;
+            color: #9b7a42;
+            font-weight: bold;
+        }
+
+        .card h3 {
+            color: #073b2a;
+            margin: 10px 0;
+            font-size: 24px;
+        }
+
+        .card p {
+            color: #555;
+        }
+
+        .reflection {
+            background: #073b2a;
+            color: white;
+            text-align: center;
+        }
+
+        .reflection h2 {
+            color: white;
+        }
+
+        .reflection p {
+            max-width: 750px;
+            margin: auto;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #052c20;
+            color: white;
+        }
+
+        @media (max-width: 800px) {
+            .activities {
+                grid-template-columns: 1fr;
+            }
+
+            .hero h1 {
+                font-size: 42px;
+            }
+
+            nav {
+                flex-direction: column;
+                gap: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<nav>
+    <h2>KA</h2>
+
+    <div>
+        <a href="#about">About</a>
+        <a href="#activities">Activities</a>
+        <a href="#reflection">Reflection</a>
+    </div>
+</nav>
+
+<section class="hero">
+    <div>
+        <h1>IT Skills Portfolio</h1>
+
+        <h3>Elective 1 – IT Skills</h3>
+
+        <p>
+            A compilation of my creative works and learning experiences
+            during the Prelim period, focusing on presentation design,
+            visual identity, typography, and infographic creation.
+        </p>
+
+        <a href="#activities" class="button">
+            View My Activities
+        </a>
+    </div>
+</section>
+
+<section class="about" id="about">
+
+    <h2>About This Portfolio</h2>
+
+    <p>
+        Hello! I am <strong>Keanna Alexandria Rebucan</strong>.
+        This portfolio presents the three activities I completed
+        during the Prelim period of Elective 1 – IT Skills.
+        Each activity allowed me to explore different ways of
+        communicating ideas through visual design.
+    </p>
+
+</section>
+
+<section id="activities">
+
+    <h2>Prelim Activities</h2>
+
+    <div class="activities">
+
+        <div class="card">
+
+            <span>ACTIVITY 01</span>
+
+            <h3>Presentation Design Principles</h3>
+
+            <p>
+                A promotional design for a Free Coffee event.
+                I applied visual hierarchy, contrast, balance,
+                proximity, and consistency to organize the
+                information and make the main message stand out.
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
+            <span>ACTIVITY 02</span>
+
+            <h3>Color Palette & Typography</h3>
+
+            <p>
+                A personal branding concept featuring a logo,
+                tagline, color palette, and typography set.
+                The design combines dark green, black, neutral
+                tones, and different typefaces to create a
+                professional and sophisticated identity.
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
+            <span>ACTIVITY 03</span>
+
+            <h3>Social Media Infographic</h3>
+
+            <p>
+                An infographic focused on depression and the
+                importance of support groups. The main message,
+                “YOU ARE NOT ALONE,” was supported through
+                organized sections, contrasting colors,
+                illustrations, and clear typography.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="reflection" id="reflection">
+
+    <h2>Reflection</h2>
+
+    <p>
+        These activities taught me that effective design is not
+        only about making something visually attractive.
+        It is also about organizing information, choosing
+        appropriate visual elements, and communicating a message
+        clearly to the audience.
+    </p>
+
+</section>
+
+
+<footer>
+
+    <p>© 2026 Keanna Alexandria Rebucan | IT Skills Portfolio</p>
+
+</footer>
+
+</body>
+</html>
