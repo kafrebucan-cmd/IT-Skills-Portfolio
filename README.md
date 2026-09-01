@@ -1,4 +1,4 @@
-# GE 4120 - IT-Skills-Portfolio
+# GE 4120 - IT Skills Portfolio
 
 ### Elective 1 – IT Skills
 
