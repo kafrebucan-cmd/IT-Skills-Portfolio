@@ -3,6 +3,7 @@
 ### Elective 1 – IT Skills
 
 **Student:** Keanna Alexandria Rebucan
+**Course & Year:** Bachelor of Science in Industrial Engineering 3-B
 
 ---
 
