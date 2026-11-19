@@ -61,15 +61,7 @@ A short description of what you created and learned.
 - **Subject:** GE 4120 – Elective 1: IT Skills
 - **What you'll find:** Activity outputs, design projects, and class learnings
 
-### 🌐 How to publish as a website
 
-1. Keep `index.html`, `style.css`, and the `assets/` folder at the **top level** of your GitHub repository, along with your activity files and folders.
-2. In your repository, open **Settings → Pages**.
-3. Under **Build and deployment**, select **Deploy from a branch**, choose `main` and `/ (root)`, then click **Save**.
-4. When GitHub provides your published website URL, paste it here to replace the local website link at the top of this README.
-5. To add more projects, edit `index.html` (the visible website) and `README.md` (the repository introduction).
-
-> **Note:** GitHub READMEs cannot use custom web fonts or full CSS layouts. The pastel banner and badges add color here; the **website** uses Fredoka, Nunito, and Caveat fonts for the full scrapbook aesthetic.
 
 <div align="center">
 
