@@ -1,298 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>IT Skills Portfolio | Keanna Alexandria Rebucan</title>
-
-    <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-            background: #f7f3ec;
-            color: #222;
-            line-height: 1.6;
-        }
-
-        nav {
-            background: #073b2a;
-            padding: 20px 8%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            color: white;
-        }
-
-        nav h2 {
-            letter-spacing: 1px;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin-left: 25px;
-        }
-
-        nav a:hover {
-            opacity: 0.7;
-        }
-
-        .hero {
-            min-height: 80vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            padding: 60px 20px;
-        }
-
-        .hero h1 {
-            font-size: 60px;
-            color: #073b2a;
-            margin-bottom: 15px;
-        }
-
-        .hero h3 {
-            font-weight: normal;
-            font-size: 22px;
-            margin-bottom: 25px;
-        }
-
-        .hero p {
-            max-width: 650px;
-            margin: auto;
-            color: #555;
-        }
-
-        .button {
-            display: inline-block;
-            margin-top: 30px;
-            padding: 12px 28px;
-            background: #073b2a;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-
-        section {
-            padding: 80px 10%;
-        }
-
-        section h2 {
-            text-align: center;
-            color: #073b2a;
-            font-size: 36px;
-            margin-bottom: 40px;
-        }
-
-        .about {
-            background: white;
-            text-align: center;
-        }
-
-        .about p {
-            max-width: 750px;
-            margin: auto;
-        }
-
-        .activities {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 30px;
-        }
-
-        .card {
-            background: white;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
-        }
-
-        .card span {
-            font-size: 15px;
-            color: #9b7a42;
-            font-weight: bold;
-        }
-
-        .card h3 {
-            color: #073b2a;
-            margin: 10px 0;
-            font-size: 24px;
-        }
-
-        .card p {
-            color: #555;
-        }
-
-        .reflection {
-            background: #073b2a;
-            color: white;
-            text-align: center;
-        }
-
-        .reflection h2 {
-            color: white;
-        }
-
-        .reflection p {
-            max-width: 750px;
-            margin: auto;
-        }
-
-        footer {
-            text-align: center;
-            padding: 25px;
-            background: #052c20;
-            color: white;
-        }
-
-        @media (max-width: 800px) {
-            .activities {
-                grid-template-columns: 1fr;
-            }
-
-            .hero h1 {
-                font-size: 42px;
-            }
-
-            nav {
-                flex-direction: column;
-                gap: 15px;
-            }
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#fff7f8" />
+  <meta name="description" content="A colorful digital scrapbook of Keanna Alexandria Rebucan's GE 4120 IT Skills activities from Prelims, Midterms, and Prefinals." />
+  <title>Keanna's IT Skills Portfolio ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
+  <div class="announcement"><span aria-hidden="true">✦</span> my little digital scrapbook <span aria-hidden="true">✦</span></div>
+  <header class="site-header">
+    <a href="#home" class="wordmark" aria-label="Keanna's portfolio, back to top">k<span class="wordmark-heart">♡</span><span class="wordmark-dot">.</span></a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#about">about me</a>
+      <a href="#prelims">prelims</a>
+      <a href="#midterms">midterms</a>
+      <a href="#prefinals">prefinals</a>
+    </nav>
+    <a class="nav-pill" href="#portfolio">explore <span aria-hidden="true">↗</span></a>
+  </header>
 
-<nav>
-    <h2>KA</h2>
-
-    <div>
-        <a href="#about">About</a>
-        <a href="#activities">Activities</a>
-        <a href="#reflection">Reflection</a>
-    </div>
-</nav>
-
-<section class="hero">
-    <div>
-        <h1>IT Skills Portfolio</h1>
-
-        <h3>Elective 1 – IT Skills</h3>
-
-        <p>
-            A compilation of my creative works and learning experiences
-            during the Prelim period, focusing on presentation design,
-            visual identity, typography, and infographic creation.
-        </p>
-
-        <a href="#activities" class="button">
-            View My Activities
-        </a>
-    </div>
-</section>
-
-<section class="about" id="about">
-
-    <h2>About This Portfolio</h2>
-
-    <p>
-        Hello! I am <strong>Keanna Alexandria Rebucan</strong>.
-        This portfolio presents the three activities I completed
-        during the Prelim period of Elective 1 – IT Skills.
-        Each activity allowed me to explore different ways of
-        communicating ideas through visual design.
-    </p>
-
-</section>
-
-<section id="activities">
-
-    <h2>Prelim Activities</h2>
-
-    <div class="activities">
-
-        <div class="card">
-
-            <span>ACTIVITY 01</span>
-
-            <h3>Presentation Design Principles</h3>
-
-            <p>
-                A promotional design for a Free Coffee event.
-                I applied visual hierarchy, contrast, balance,
-                proximity, and consistency to organize the
-                information and make the main message stand out.
-            </p>
-
+  <main>
+    <section class="hero section-wrap" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-star">✳</span> GE 4120 • Elective 1</div>
+        <p class="handwritten hello">hello, internet! <span aria-hidden="true">♡</span></p>
+        <h1 id="hero-title">My <span class="highlight-pink">IT Skills</span><br /><span class="highlight-lavender">Portfolio</span><span class="title-flower" aria-hidden="true">✿</span></h1>
+        <p class="hero-intro">A colorful collection of projects, creative experiments, and little things I learned along the way. Welcome to my digital corner!</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#portfolio">see my activities <span aria-hidden="true">↗</span></a>
+          <a class="button secondary" href="#about">get to know me <span aria-hidden="true">♡</span></a>
         </div>
+        <div class="mini-note"><span class="tiny-dot"></span> made with curiosity, creativity & lots of color</div>
+      </div>
+      <div class="hero-art" aria-label="Colorful scrapbook-style decoration with cards and flowers" role="img">
+        <div class="art-blob blob-pink"></div>
+        <div class="art-blob blob-lilac"></div>
+        <div class="art-star star-one" aria-hidden="true">✳</div>
+        <div class="art-star star-two" aria-hidden="true">✦</div>
+        <div class="polaroid polaroid-back"><span class="polaroid-top">✷</span><div class="color-stripes"><i></i><i></i><i></i><i></i></div><span class="handwritten">play & create</span></div>
+        <div class="polaroid polaroid-front"><div class="smiley" aria-hidden="true"><span class="eye left-eye"></span><span class="eye right-eye"></span><span class="mouth"></span></div><p class="handwritten">learning looks good on me!</p></div>
+        <div class="tape tape-one"></div>
+        <div class="sticker sticker-pink">100%<br />made by me</div>
+        <div class="sticker sticker-blue">cute<br />& creative ✿</div>
+        <span class="flower flower-a" aria-hidden="true">✿</span>
+        <span class="flower flower-b" aria-hidden="true">✻</span>
+        <span class="squiggle" aria-hidden="true">〰</span>
+      </div>
+    </section>
 
-
-        <div class="card">
-
-            <span>ACTIVITY 02</span>
-
-            <h3>Color Palette & Typography</h3>
-
-            <p>
-                A personal branding concept featuring a logo,
-                tagline, color palette, and typography set.
-                The design combines dark green, black, neutral
-                tones, and different typefaces to create a
-                professional and sophisticated identity.
-            </p>
-
+    <section class="about-band" id="about" aria-labelledby="about-title">
+      <div class="section-wrap about-inner">
+        <div class="about-icon" aria-hidden="true">✿</div>
+        <div class="about-info">
+          <p class="overline">a little introduction</p>
+          <h2 id="about-title">Hi, I'm <span>Keanna!</span> <span aria-hidden="true">♡</span></h2>
+          <p>I'm <strong>Keanna Alexandria Rebucan</strong>, a <strong>BS Industrial Engineering 3-B</strong> student. This space documents my activities for <strong>GE 4120 – Elective 1: IT Skills</strong>, from Prelims to Prefinals.</p>
         </div>
+        <div class="about-stamp">design<br />• learn •<br />create</div>
+      </div>
+    </section>
 
+    <section class="portfolio section-wrap" id="portfolio" aria-labelledby="portfolio-title">
+      <div class="section-heading center-heading">
+        <p class="handwritten kicker">a little bit of everything ✧</p>
+        <h2 id="portfolio-title">The activity <span class="underline-swoosh">collection</span></h2>
+        <p>Three chapters, one growing collection of creative work.</p>
+      </div>
+      <div class="quick-nav" aria-label="Jump to a grading period">
+        <a href="#prelims"><span class="nav-number">01</span> Prelims <span aria-hidden="true">↗</span></a>
+        <a href="#midterms"><span class="nav-number">02</span> Midterms <span aria-hidden="true">↗</span></a>
+        <a href="#prefinals"><span class="nav-number">03</span> Prefinals <span aria-hidden="true">↗</span></a>
+      </div>
 
-        <div class="card">
-
-            <span>ACTIVITY 03</span>
-
-            <h3>Social Media Infographic</h3>
-
-            <p>
-                An infographic focused on depression and the
-                importance of support groups. The main message,
-                “YOU ARE NOT ALONE,” was supported through
-                organized sections, contrasting colors,
-                illustrations, and clear typography.
-            </p>
-
+      <section class="term-block" id="prelims" aria-labelledby="prelims-title">
+        <div class="term-header"><div><p class="term-caption">chapter 01 • the beginning</p><h3 id="prelims-title">Prelim <span>Activities</span><span class="little-sparkle" aria-hidden="true"> ✦</span></h3></div><span class="term-tag pink-tag">3 projects</span></div>
+        <div class="activity-grid">
+          <article class="activity-card card-rose">
+            <div class="card-illustration illustration-coffee"><span class="drawing-spark spark-a">✧</span><div class="coffee-cup"><span class="coffee-steam">⌁ ⌁</span><span class="cup-heart">♥</span></div><span class="drawing-label">free coffee!</span><span class="drawing-spark spark-b">✿</span></div>
+            <div class="card-body"><div class="card-meta"><span>activity 01</span><span class="meta-icon">✦</span></div><h4>Presentation Design Principles</h4><p>A Free Coffee promotional design exploring visual hierarchy, contrast, balance, proximity, and consistency.</p><a href="./ACTIVITY%201%20-%20GE%204120_REBUCAN.png" class="card-link">view activity <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="activity-card card-lilac">
+            <div class="card-illustration illustration-brand"><div class="brand-logo">K<span>✳</span></div><div class="palette-swatches"><i></i><i></i><i></i><i></i></div><span class="handwritten brand-note">color & type</span></div>
+            <div class="card-body"><div class="card-meta"><span>activity 02</span><span class="meta-icon">✦</span></div><h4>Color Palette & Typography</h4><p>A personal branding concept with a logo, tagline, colors, and typography designed as one cohesive visual identity.</p><a href="./Activity%202/" class="card-link">view activity <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="activity-card card-blue">
+            <div class="card-illustration illustration-infographic"><div class="info-paper"><span class="info-small">A LITTLE REMINDER</span><strong>YOU ARE<br />NOT ALONE.</strong><div class="info-hearts" aria-hidden="true">♥ ♡ ♥</div></div><span class="drawing-spark spark-c">✴</span></div>
+            <div class="card-body"><div class="card-meta"><span>activity 03</span><span class="meta-icon">✦</span></div><h4>Social Media Infographic</h4><p>An infographic about depression and why support groups matter, centered on the message “You are not alone.”</p><a href="./Activity%203/" class="card-link">view activity <span aria-hidden="true">↗</span></a></div>
+          </article>
         </div>
+      </section>
 
-    </div>
+      <section class="term-block" id="midterms" aria-labelledby="midterms-title">
+        <div class="term-header"><div><p class="term-caption">chapter 02 • keep on creating</p><h3 id="midterms-title">Midterm <span>Activities</span><span class="little-sparkle" aria-hidden="true"> ✳</span></h3></div><span class="term-tag lavender-tag">ready to fill</span></div>
+        <div class="placeholder-panel lavender-panel"><div class="placeholder-icon" aria-hidden="true">☼</div><div><h4>More little projects go here!</h4><p>Add your Midterm activity names, descriptions, and links once your files are in the repository.</p><p class="placeholder-hint">Tip: Duplicate an activity card in <code>index.html</code> and change its content.</p></div><span class="handwritten placeholder-doodle">stay curious ♡</span></div>
+      </section>
 
-</section>
+      <section class="term-block" id="prefinals" aria-labelledby="prefinals-title">
+        <div class="term-header"><div><p class="term-caption">chapter 03 • the next page</p><h3 id="prefinals-title">Prefinal <span>Activities</span><span class="little-sparkle" aria-hidden="true"> ✿</span></h3></div><span class="term-tag mint-tag">ready to fill</span></div>
+        <div class="placeholder-panel mint-panel"><div class="placeholder-icon" aria-hidden="true">✿</div><div><h4>The story isn't finished yet...</h4><p>This section is ready for your Prefinal outputs, project descriptions, screenshots, and links.</p><p class="placeholder-hint">Tip: Use a GitHub folder or a live project URL for every activity.</p></div><span class="handwritten placeholder-doodle">you got this!</span></div>
+      </section>
+    </section>
 
-
-<section class="reflection" id="reflection">
-
-    <h2>Reflection</h2>
-
-    <p>
-        These activities taught me that effective design is not
-        only about making something visually attractive.
-        It is also about organizing information, choosing
-        appropriate visual elements, and communicating a message
-        clearly to the audience.
-    </p>
-
-</section>
-
-
-<footer>
-
-    <p>© 2026 Keanna Alexandria Rebucan | IT Skills Portfolio</p>
-
-</footer>
-
+    <section class="closing"><div class="section-wrap"><span class="closing-flower" aria-hidden="true">✿</span><p class="handwritten">little by little, project by project...</p><h2>Always learning. Always creating. <span>♡</span></h2><a href="#home">back to top ↑</a></div></section>
+  </main>
+  <footer><div class="section-wrap footer-inner"><span>© 2026 Keanna Alexandria Rebucan</span><span>Made with <span class="footer-heart">♥</span> for GE 4120 – IT Skills</span></div></footer>
 </body>
 </html>

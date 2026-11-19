@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="310" viewBox="0 0 1200 310" role="img" aria-labelledby="title desc">
+<title id="title">Keanna's IT Skills Portfolio</title><desc id="desc">Pastel pink and lavender banner decorated with flowers, stars and cute doodles.</desc>
+<rect width="1200" height="310" rx="32" fill="#fff1f5"/>
+<circle cx="92" cy="50" r="100" fill="#eadffb"/><circle cx="1150" cy="260" r="180" fill="#f6dce8"/><circle cx="1040" cy="30" r="100" fill="#e4f4e8"/>
+<path d="M0 250 Q300 190 550 285 T1200 245 V310 H0Z" fill="#f7e6ef"/>
+<g fill="#d9a9c7"><path d="M163 103l10 26 26 10-26 10-10 26-10-26-26-10 26-10z"/><path d="M1057 112l7 17 17 7-17 7-7 17-7-17-17-7 17-7z"/></g>
+<g fill="#ab9ad7"><circle cx="254" cy="46" r="7"/><circle cx="932" cy="232" r="8"/><circle cx="1105" cy="74" r="5"/></g>
+<text x="600" y="79" text-anchor="middle" fill="#a77c9b" font-size="22" font-weight="700" font-family="Arial, sans-serif" letter-spacing="5">GE 4120 • ELECTIVE 1</text>
+<text x="600" y="167" text-anchor="middle" fill="#9d80cb" font-family="Trebuchet MS, Arial, sans-serif" font-size="66" font-weight="bold">IT Skills Portfolio</text>
+<text x="600" y="213" text-anchor="middle" fill="#aa7898" font-family="Trebuchet MS, Arial, sans-serif" font-size="25">prelims  ♡  midterms  ♡  prefinals</text>
+<g fill="#e3b568"><text x="90" y="264" font-size="70">✿</text><text x="1053" y="251" font-size="70">✿</text></g>
+<g fill="#abcbae"><text x="64" y="160" font-size="42">✦</text><text x="1105" y="190" font-size="42">✦</text></g>
+</svg>
