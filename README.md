@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/portfolio-banner.svg" alt="Pastel banner that says IT Skills Portfolio: Prelims, Midterms, Prefinals" width="100%">
+<img src="portfolio-banner.png" alt="Pastel banner that says IT Skills Portfolio: Prelims, Midterms, Prefinals" width="100%">
 
 ### ♡ Keanna's little corner of the internet ♡
 
